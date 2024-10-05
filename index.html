@@ -60,19 +60,32 @@
             background-color: #3b5bdb;
             cursor: pointer;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .blog-link {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Welcome to My Portfolio</h1>
-    <p>A platform to showcase my projects, extracurriculars, and thoughts</p>
+    <p>A platform to showcase my projects, extracurriculars, certifications, and thoughts</p>
 </header>
 
 <nav>
     <a href="#about">About Me</a>
     <a href="#projects">Projects</a>
     <a href="#extracurriculars">Extracurriculars</a>
+    <a href="#certifications">Certifications</a>
     <a href="#blog">Blog</a>
     <a href="#resume">Resume</a>
     <a href="#contact">Contact</a>
@@ -99,11 +112,33 @@
         <li><strong>Activity 2:</strong> Another activity you're involved in.</li>
         <!-- Add more extracurriculars as needed -->
     </ul>
+    <h3>Photos</h3>
+    <img src="images/activity1.jpg" alt="Activity 1 Photo">
+    <img src="images/activity2.jpg" alt="Activity 2 Photo">
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li><strong>Certification 1:</strong> Brief description of certification.</li>
+        <li><strong>Certification 2:</strong> Brief description of another certification.</li>
+    </ul>
+    <h3>Photos</h3>
+    <img src="images/certification1.jpg" alt="Certification 1">
+    <img src="images/certification2.jpg" alt="Certification 2">
 </section>
 
 <section id="blog">
     <h2>Blog</h2>
-    <p>Coming soon! I will be posting my thoughts on various topics, including [topic 1] and [topic 2]. Stay tuned for updates!</p>
+    <div class="blog-link">
+        <a href="blog1.html">Blog Post 1: Title</a>
+        <p>Brief description of the blog post.</p>
+    </div>
+    <div class="blog-link">
+        <a href="blog2.html">Blog Post 2: Title</a>
+        <p>Brief description of the blog post.</p>
+    </div>
+    <!-- Add more blog posts as needed -->
 </section>
 
 <section id="resume">
